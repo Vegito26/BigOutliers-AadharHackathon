@@ -73,10 +73,20 @@ The project is created with:
 
 # SPECIAL CASES HANDLED:
 ‣ Case-1: The VTC entry 'Bangalore City' will be removed as it is not actually a VTC.
+
+
 ‣ Case-2: The VTC entry 'Chennai GPO' will be removed as it is not a VTC, and doesn't give us any extra information about where the address lies.
+
+
 ‣ Case-3: There are 2 occurences of the word 'Mumbai', so the first one will be removed, and the last will be retained.
+
+
 ‣ Case-4: There are 2 entries, one as 'mothinagar', and the other as 'mothi nagar'. So even though the strings aren't exactly the same, the first one will be removed, and the second one will be retained.
+
+
 ‣ Case-5: The first occurrence of the word 'Rajajinagar' would be removed, while the other will remain.
+
+
 ‣ Case-6: Two strings are being repeated twice, i.e., 'Rajajinagar' and 'Bangalore', so both their first occurrence will be removed, inspite of different cases of the strings.
 
 # REFERENCES: 
