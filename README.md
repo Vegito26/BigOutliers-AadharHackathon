@@ -36,19 +36,19 @@ The project is created with:
 
 1) Take the user’s address on the basis of the following labels-
 
- ‣ Building 
+  ‣ Building 
 
- ‣ Street
+  ‣ Street
 
- ‣ Landmark 
+  ‣ Landmark 
 
- ‣ Locality
+  ‣ Locality
 
- ‣ VTC
+  ‣ VTC
 
- ‣ District
+  ‣ District
 
- ‣ State
+  ‣ State
 
 2) Using simple string matching, exactly similar strings are identified, and all their occurrences are removed, except for the last occurrence. The hashing algorithm is used to optimize this process as it has linear time complexity. 
 
