@@ -22,7 +22,7 @@ This project was made for the Aadhaar Hackathon, 2021, organized by the Unique I
 
 The project is created with:
 
-‣ Python 3.10
+‣ Python 3.9
 
     Libraries used: pandas, numpy, flask, flask-restful, jason
      
