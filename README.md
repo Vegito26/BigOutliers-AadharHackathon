@@ -13,7 +13,3 @@ Problem Statement: Address Formatting Issue
 ‣ Create an API to undertake the required address formatting 
 
 ‣ Build a user interface to simplify the usage and ease evaluation.
-
-
-
-bhbjhnkjnl
