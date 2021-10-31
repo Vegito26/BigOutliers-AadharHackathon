@@ -5,12 +5,10 @@ import numpy as np
 import json
 
 app = Flask(__name__)
-cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
+CORS(app, support_credentials=True)
 
-@app.route("/")
-@cross_origin()
-api = Api(app)
+@app.route("/login")
+@cross_origin(supports_credentials=True)
 
 
 def cleanup_str(row):
@@ -120,7 +118,7 @@ def title_case(address):
     return address
 
 class Format(Resource):
-    def post(self):
+    def get(self):
         parser = reqparse.RequestParser()  # initialize
         parser.add_argument('building', required=False)  # add args
         parser.add_argument('street', required=False)
