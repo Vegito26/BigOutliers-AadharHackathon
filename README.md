@@ -32,6 +32,11 @@ The project is created with:
 
 ‣ CSS
 
+‣ JavaScript
+
+‣ Heroku (to deploy the API)
+
+
 # STEPS INVOLVED:
 
 1) Take the user’s address on the basis of the following labels-
