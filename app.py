@@ -13,8 +13,6 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @cross_origin()
 
 def cleanup_str(row):
-    import numpy as np
-
     temp_list = []
     col_num = 0
 
