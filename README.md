@@ -72,11 +72,12 @@ The project is created with:
 ![2021-10-31 (10)](https://user-images.githubusercontent.com/86941433/139588278-fe4515f4-c86e-410c-8d5c-e702054c6ea9.png)
 
 # SPECIAL CASES HANDLED:
-
-![2021-10-31 (12)](https://user-images.githubusercontent.com/86941433/139593121-ad207945-0d06-4627-88c4-27b25b6c1219.png)
-
-![2021-10-31 (13)](https://user-images.githubusercontent.com/86941433/139593125-feb424b7-c30a-498d-883f-77a006f57a65.png)
-
+‣ Case-1: The VTC entry 'Bangalore City' will be removed as it is not actually a VTC.
+‣ Case-2: The VTC entry 'Chennai GPO' will be removed as it is not a VTC, and doesn't give us any extra information about where the address lies.
+‣ Case-3: There are 2 occurences of the word 'Mumbai', so the first one will be removed, and the last will be retained.
+‣ Case-4: There are 2 entries, one as 'mothinagar', and the other as 'mothi nagar'. So even though the strings aren't exactly the same, the first one will be removed, and the second one will be retained.
+‣ Case-5: The first occurrence of the word 'Rajajinagar' would be removed, while the other will remain.
+‣ Case-6: Two strings are being repeated twice, i.e., 'Rajajinagar' and 'Bangalore', so both their first occurrence will be removed, inspite of different cases of the strings.
 
 # REFERENCES: 
 ‣ Database of Addresses provided by UIDAI: https://docs.google.com/spreadsheets/d/1wkvKGYeicntmHQpTPpONNweJdeqR0f6VuYXBBaa-c3I/edit?usp=sharing
