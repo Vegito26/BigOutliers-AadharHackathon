@@ -73,6 +73,11 @@ The project is created with:
 
 # SPECIAL CASES HANDLED:
 
+![2021-10-31 (12)](https://user-images.githubusercontent.com/86941433/139593121-ad207945-0d06-4627-88c4-27b25b6c1219.png)
+
+![2021-10-31 (13)](https://user-images.githubusercontent.com/86941433/139593125-feb424b7-c30a-498d-883f-77a006f57a65.png)
+
+
 # REFERENCES: 
 ‣ Database of Addresses provided by UIDAI: https://docs.google.com/spreadsheets/d/1wkvKGYeicntmHQpTPpONNweJdeqR0f6VuYXBBaa-c3I/edit?usp=sharing
 
