@@ -69,6 +69,7 @@ The project is created with:
 # SPECIAL CASES HANDLED:
 
 # REFERENCES: 
+‣ Database of Addresses provided by UIDAI: https://docs.google.com/spreadsheets/d/1wkvKGYeicntmHQpTPpONNweJdeqR0f6VuYXBBaa-c3I/edit?usp=sharing
 
 ‣ Database of all VTCs in India: https://censusindia.gov.in/2011census/censusdata2k11.aspx
 
