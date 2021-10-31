@@ -5,10 +5,7 @@ import numpy as np
 import json
 
 app = Flask(__name__)
-CORS(app, support_credentials=True)
-
-@app.route("/login")
-@cross_origin(supports_credentials=True)
+api = Api(app)
 
 
 def cleanup_str(row):
