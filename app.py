@@ -1,11 +1,16 @@
 from flask import Flask
 from flask_restful import Resource, Api, reqparse
+from flask_cors import CORS, cross_origin
 import pandas as pd
 import numpy as np
 import json
 
 app = Flask(__name__)
-api = Api(app)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
+@app.route("/")
+@cross_origin()
 
 
 def cleanup_str(row):
