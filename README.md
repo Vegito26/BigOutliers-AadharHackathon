@@ -73,10 +73,11 @@ The project is created with:
 
 # SPECIAL CASES HANDLED:
 
+![2021-10-31 (13)](https://user-images.githubusercontent.com/86941433/139593496-5acbad7d-acf0-407e-9a34-0f4792b95343.png)
+
+
 ![2021-10-31 (12)](https://user-images.githubusercontent.com/86941433/139593491-4992f55d-cebd-4410-b27e-1773a14b085e.png)
 
-
-![2021-10-31 (13)](https://user-images.githubusercontent.com/86941433/139593496-5acbad7d-acf0-407e-9a34-0f4792b95343.png)
 
 
 ‣ Case-1: The VTC entry 'Bangalore City' will be removed as it is not actually a VTC.
