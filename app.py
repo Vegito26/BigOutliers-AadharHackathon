@@ -14,7 +14,7 @@ cors = CORS(app)
 
 def cleanup_str(row):
     temp_list = []
-    col_num = 0
+    colnum = 0
 
     for words in row:
         if (isinstance(words, str)):  # check for NaN values
