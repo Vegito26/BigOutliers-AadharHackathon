@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_restful import Resource, Api, reqparse
-from flask_cors import CORS, cross_origin
 import pandas as pd
 import numpy as np
 import json
@@ -8,6 +7,11 @@ import json
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
+
+@app.route("/")
+@cross_origin()
+api = Api(app)
+
 
 def cleanup_str(row):
     temp_list = []
